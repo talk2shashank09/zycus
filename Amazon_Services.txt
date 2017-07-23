@@ -1,0 +1,14 @@
+Apache Web server:
+Will create an EC2 instance for the web server and will install apache there.  
+
+Apache Tomcat server:
+Will create EC2 instance for the apache tomcat server and will install tomcat in that. We can also install docker in that instance and can create container with installed tomcat.
+
+Active MQ: 
+Will use SQS service for this because of guarantee of receiving messages atleast once and smooth integration with other hosted application and services.
+
+Oracle:
+Will use Amazon RDS because of easy setup, operate and ease of deployment in the cloud. Amazon RDS manages backup and monitoring activites 
+
+HA and Load balancing:
+For load balancing we can create EC2 instances with choosing the application load balancer. Application load balancer is having feature of high availability as we can specify the availability zone.
