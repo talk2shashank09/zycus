@@ -20,4 +20,4 @@ read -p 'Command: ' command
 
 # ssh all servers
 
-ssh -h host_names -t 10 -i "$command"
+pssh -h host_names -t 10 -i "$command"
